@@ -15,7 +15,7 @@ npm install
 
 By all means, keep the node server running
 ``` javascript
-nodemon server.js
+nodemon 
 ```
 
 Use bower to install client-side dependencies:
@@ -27,5 +27,4 @@ bower install bootstrap
 bower install jquery
 ```
 
-Visit http://localhost:5000 to view the project.
-```
+Visit http://localhost:5000 on your browser to view the project.
