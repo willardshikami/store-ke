@@ -1,30 +1,21 @@
 # store-ke
 Online store
 
-## Running the project locally
-Clone the repository
+## Running the project
+
+To get started, first install all the necessary dependencies.
 ```
-git clone https://github.com/willardshikami/store-ke.git
+> npm install
 ```
 
-Install Node dependencies from the NPM Registry.
+Run an initial webpack build
 ```
-cd store-ke
-npm install
-```
-
-By all means, keep the node server running
-``` javascript
-nodemon 
+> webpack
 ```
 
-Use bower to install client-side dependencies:
+Start the development server (changes will now update live in browser)
 ```
-cd client
-bower install angular
-bower install angular-route
-bower install bootstrap
-bower install jquery
+> npm run start
 ```
 
-Visit http://localhost:5000 on your browser to view the project.
+To view your project, go to: [http://localhost:3000/](http://localhost:3000/)
