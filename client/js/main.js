@@ -1,25 +1,41 @@
-var playlistApp = angular.module('playlistApp', ['ngRoute']);
+var playlistApp = angular.module('onlineStore', ['ngRoute']);
 
 playlistApp.config(function($routeProvider) {
     $routeProvider.when('/', {
-        controller: 'PlaylistController',
-        templateUrl: 'views/playlists.html'
+        controller: 'ProductsController',
+        templateUrl: 'views/home.html'
     });
 
-    $routeProvider.when('/artistes', {
-        controller: 'PlaylistController',
-        templateUrl: 'views/artistes.html'
+    $routeProvider.when('/home', {
+        controller: 'ProductsController',
+        templateUrl: 'views/home.html'
     });
 
-    $routeProvider.when('/charts',{
-        controller: 'PlaylistController',
-        templateUrl: 'views/charts.html'
+    $routeProvider.when('/about',{
+        controller: 'ProductsController',
+        templateUrl: 'views/about.html'
     });
 
-    $routeProvider.when('/releases', {
-        controller: 'PlaylistController',
-        templateUrl: 'views/releases.html'
+    $routeProvider.when('/bodybutter', {
+        controller: 'ProductsController',
+        templateUrl: 'views/bodybutter.html'
+    });
+
+    $routeProvider.when('/oils', {
+        controller: 'ProductsController',
+        templateUrl: 'views/oils.html'
+    });
+
+    $routeProvider.when('/soaps', {
+        controller: 'ProductsController',
+        templateUrl: 'views/soaps.html'
+    });
+
+    $routeProvider.when('/contacts', {
+        controller: 'ProductsController',
+        templateUrl: 'views/contacts.html'
     })
+
     .otherwise({
         redirectTo: '/'
     });
