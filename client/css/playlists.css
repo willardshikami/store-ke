@@ -1,0 +1,157 @@
+
+.landing-playlists{
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-family: 'Quicksand', sans-serif;
+	height: 400px;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.landing-playlists .jumbotron{
+  background-color: rgba(0, 0, 0, 0.0) !important;
+  text-align: center;
+	padding-top: 100px;
+}
+
+.landing-playlists .jumbotron h1{
+   text-shadow: 2px 2px #111517;
+}
+
+.landing-playlists .jumbotron p {
+	font-family: 'Averta', sans-serif !important;
+  text-shadow: 2px 2px #111517;
+}
+
+.search-box{
+  color: #111517 !important;
+  border: 2px #fff;
+  border-left-style: 10px;
+  font-family: 'Averta', sans-serif !important;
+  width: 35%;
+  height: 50px;
+  font-size: 18px;
+  padding-left: 1em;
+  box-shadow: 0 5px 13px rgba(0,0,0,0.12), 0 11px 12px rgba(0,0,0,0.24);
+}
+
+.title{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+.form-group{
+  margin-top: 50px;
+}
+
+.playlist-view{
+    margin-top: 40px; 
+}
+
+.card {
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  
+}
+
+.card-desc {
+  background: #FFFFFF;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/*
+  ===============================================
+  GRID OF TWO (CARD GRID SECTIONS STARTS HERE)
+  ===============================================
+*/
+
+.playlist-title{
+  font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.card img{
+	width: 100%;
+	overflow: hidden;
+  box-shadow: 0 0 4px rgba(0,0,0,0.12), 0 0 3px rgba(0,0,0,0.24);
+}
+.username{
+  padding: 0 !important;
+	margin: 0 !important;
+}
+
+.songs{
+  color: #999999;
+  padding: 0 !important;
+	margin: 0 !important;
+}
+
+.description{
+  padding: 10px 0 20px 0;
+}
+
+/*
+a:hover .changespan{
+  display: none;
+}
+ #1DB954;
+a:hover:before{
+  padding-top:4px; 
+  content: "LETS GOOO"
+}
+*/
+
+.card a {
+    color: #111517;
+    font-size: 13px;
+    text-decoration: none;
+    outline: 0;
+}
+
+.card a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.card a:link {
+    color: #111517;
+    text-decoration: none;
+    outline: 0;
+}
+
+/* visited link */
+.card a:visited {
+    color: #111517;
+    text-decoration: none;
+    outline: 0;
+}
+
+/* mouse over link */
+.card a:hover {
+    color: #111517;
+    outline: 0;
+}
+
+/* selected link */
+.card a:active {
+    color: #111517;
+    text-decoration: none;
+    outline: 0;
+}
+
+.card a:after {
+    color: #111517;
+    text-decoration: none;
+    outline: 0;
+}

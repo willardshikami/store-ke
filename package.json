@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/willardshikami/store-ke/issues"
   },
-  "homepage": "https://github.com/willardshikami/store-ke#readme"
+  "homepage": "https://github.com/willardshikami/store-ke#readme",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "nodemon": "^1.11.0"
+  }
 }

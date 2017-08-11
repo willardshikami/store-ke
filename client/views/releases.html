@@ -1,0 +1,32 @@
+<div class="releases">
+	<div class="animated fadeIn landing-releases">
+		<div class="jumbotron">
+			<h1 class="title">Explore New Releases</h1>
+			<p>Music for every moment</p>
+			<div class="form-group">
+				<input class="search-box" type="text" placeholder="Explore playlists" ng-model="resourceList.search">
+			</div>
+		</div>
+	</div>
+<div class="playlist-view" ng-init="getReleases()">
+	<div class="container">
+		<div class="row">
+			<!--ng repeat to cycle over the data in the API-->
+			<div class="back-opacity">
+				<div class="animated fadeInUp card col-sm-4" ng-repeat="release in releases | filter:resourceList.search | orderBy: Title">
+					<a href="{{release.playlist_url}}" target="_blank">
+					<img src="{{release.image_url}}">
+
+					<div class="card-desc">
+						<h1 class="playlist-title">{{release.playlist_name}}</h1>
+						<p class="songs">{{release.number_of_songs}} songs</p>
+						<p class="description">{{release.description}}</p>
+
+						<p class="username"><span style="color: #999999;">Playlist by </span>{{release.username}}</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
