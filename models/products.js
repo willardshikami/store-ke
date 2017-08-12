@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 //defining the schema
-const artisteSchema = mongoose.Schema({
+const productSchema = mongoose.Schema({
     product_name:{
 		type: String,
 		required: true

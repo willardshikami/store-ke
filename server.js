@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 app.set('port', process.env.PORT || 5000);
 
 //DB connection
-mongoose.connection.openUri('');
+mongoose.connection.openUri('mongodb://localhost/music');
 const db = mongoose.connection;
 
 //checking for errors in DB
