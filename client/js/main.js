@@ -6,29 +6,29 @@ onlineStore.config(function($routeProvider) {
         templateUrl: 'views/home.html'
     });
 
-    $routeProvider.when('/', {
+    $routeProvider.when('/soaps', {
         controller: 'ProductsController',
-        templateUrl: 'views/home.html'
+        templateUrl: 'views/soaps.html'
     });
 
-    $routeProvider.when('/', {
+    $routeProvider.when('/shop', {
         controller: 'ProductsController',
-        templateUrl: 'views/home.html'
+        templateUrl: 'views/shop.html'
     });
 
-    $routeProvider.when('/', {
+    $routeProvider.when('/bodybutters', {
         controller: 'ProductsController',
-        templateUrl: 'views/home.html'
+        templateUrl: 'views/bodybutters.html'
     });
 
-    $routeProvider.when('/', {
+    $routeProvider.when('/contacts', {
         controller: 'ProductsController',
-        templateUrl: 'views/home.html'
+        templateUrl: 'views/contacts.html'
     });
 
-    $routeProvider.when('/', {
+    $routeProvider.when('/about', {
         controller: 'ProductsController',
-        templateUrl: 'views/home.html'
+        templateUrl: 'views/about.html'
     })
     .otherwise({
         redirectTo: '/'
