@@ -29,7 +29,13 @@ onlineStore.config(function($routeProvider) {
     $routeProvider.when('/about', {
         controller: 'ProductsController',
         templateUrl: 'views/about.html'
+    });
+
+        $routeProvider.when('/productdetail', {
+        controller: 'ProductsController',
+        templateUrl: 'views/product-detail.html'
     })
+
     .otherwise({
         redirectTo: '/'
     });
