@@ -17,11 +17,13 @@ body {
   padding: auto !important;
 }
 
+/*
 .carousel-caption {
     top: 0;
     bottom: auto;
     padding-top: 300px !important;
 }
+*/
 
 .jumbotron {
   background-color: #FFFFFF !important;
@@ -53,59 +55,32 @@ body {
   padding: 0 200px;
 }
 
-.mid-image img {
-  margin: 0 !important;
-  padding: 0 !important;
+/*
+  ========================================
+  FOOTER PRODUCTS
+  ========================================
+*/
+
+
+.footer-products{
+  margin: 50px 0 50px 0;
 }
 
-.collections-section{
-  padding: 50px 0 50px 0;
-}
-
-
-/*PRODUCTS SECTION*/
-.products-section {
-  padding: 50px 0 50px 0;
-}
-
-.products-section .card {
-  margin: 0 !important;
-  padding: 0 !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.title p{
+.footer-products p{
   text-align: center;
   font-size: 30px;
   font-weight: 600px;
 }
 
-.card img {
-  width: 100%;
-}
-
-.card .card-text {
-  background-color: #FFFFFF;
-  padding: 20px 10px;
-}
-
-.card .category {
-  color: #A6A6A6;
-}
-
-.card .card-title {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.card .view-item {
-  margin-right: 20px;
-}
-
-.collection-img {
+.footer-products-img {
   background-color: rgba(0,0,0, 0.5);
   zoom: 1;
   position: relative;
+}
+
+.footer-products, .footer-nav{
+  text-transform: uppercase;
+  font-weight: 600px;
 }
 
 .caption {
